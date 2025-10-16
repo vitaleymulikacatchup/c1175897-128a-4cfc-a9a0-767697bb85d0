@@ -7,6 +7,7 @@ import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Zap, CheckCircle } from 'lucide-react';
 
 const assetMap = [{"id":"hero-bg","url":"https://images.pexels.com/photos/34266111/pexels-photo-34266111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"modern SaaS platform - Photo by Pramod Giri"},{"id":"features-1","url":"https://images.pexels.com/photos/19867468/pexels-photo-19867468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Wooden letter tiles spelling SaaS on rustic wood. Ideal for cloud computing and business concepts."},{"id":"features-2","url":"https://images.pexels.com/photos/19867468/pexels-photo-19867468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Wooden letter tiles spelling SaaS on rustic wood. Ideal for cloud computing and business concepts."},{"id":"faq-image","url":"https://images.pexels.com/photos/8867231/pexels-photo-8867231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Smiling woman in call center with headset and microphone at office desk."}];
 
@@ -45,8 +46,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardTwo
             features={[
-              { title: "Analytics", description: "Gain insights with detailed analytics.", icon:"Zap", button: { text: "Learn More", href: "#" } },
-              { title: "Automation", description: "Automate tasks to boost efficiency.", icon:"CheckCircle", button: { text: "Learn More", href: "#" } }
+              { title: "Analytics", description: "Gain insights with detailed analytics.", icon: Zap, button: { text: "Learn More", href: "#" } },
+              { title: "Automation", description: "Automate tasks to boost efficiency.", icon: CheckCircle, button: { text: "Learn More", href: "#" } }
             ]}
             title="Our Features"
             description="Discover what makes us different"
